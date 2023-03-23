@@ -1,0 +1,6 @@
+{
+  "material-icon-theme.files.associations": {
+    "*.tsx": "../../icons/solidjs"
+  },
+  "cSpell.words": ["attributify", "Tenzies"]
+}
