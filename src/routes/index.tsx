@@ -19,10 +19,10 @@ export default function Home() {
         </A>
 
         <A
-          href="/quiz"
+          href="/quizzical"
           class="font-semibold transition-colors hover:text-pink-300"
         >
-          Quiz
+          Quizzical
         </A>
       </nav>
     </main>

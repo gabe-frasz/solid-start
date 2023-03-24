@@ -25,7 +25,7 @@ export const Die = (props: DieProps) => {
     <button
       onClick={handleDieSelect}
       class={clsx(
-        "grid h-12 w-12 grid-cols-3 items-center justify-center justify-items-center rounded-md shadow",
+        "grid h-12 w-12 grid-cols-3 items-center justify-center justify-items-center rounded-md border border-black/10 shadow-lg",
         {
           "bg-emerald-500": props.selected,
         },

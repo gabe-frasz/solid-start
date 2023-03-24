@@ -57,9 +57,7 @@ export default function Tenzies() {
 
       <div class="flex min-h-screen items-center justify-center bg-gray-900 px-2">
         <main class="flex w-full max-w-xl flex-col items-center rounded bg-white p-4 text-gray-900">
-          <HomeLink />
-
-          <h1 class="mt-4 mb-2 text-3xl font-semibold">Tenzies</h1>
+          <h1 class="mb-2 text-3xl font-semibold">Tenzies</h1>
 
           <p class="max-w-sm text-center">
             Roll until all dice are the same. Click each die to freeze it at its
@@ -84,10 +82,12 @@ export default function Tenzies() {
 
           <button
             onClick={rollDice}
-            class="w-20 min-w-fit rounded bg-indigo-600 px-3 py-1 font-semibold text-white transition-colors hover:bg-indigo-600/90"
+            class="mb-6 w-20 min-w-fit rounded bg-indigo-600 px-3 py-1 font-semibold text-white transition-colors hover:bg-indigo-600/90"
           >
             {isGameFinished() ? "Play again" : "Roll"}
           </button>
+
+          <HomeLink />
         </main>
       </div>
     </>
